@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/profileFragment">
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.geekmessenger.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/bottomSheetGalleryFragment"
+        android:name="com.example.geekmessenger.ui.fragments.bottomSheet.BottomSheetGalleryFragment"
+        android:label="fragment_bottom_sheet_gallery"
+        tools:layout="@layout/fragment_bottom_sheet_gallery" />
+</navigation>
