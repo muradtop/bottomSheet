@@ -78,6 +78,10 @@ dependencies {
     // Navigation
     implementation(libs.bundles.navigationBundle)
 
+    implementation ("com.google.android.material:material:1.6.0")
+
+
+
 
     // Hilt
     implementation(libs.hilt.hilt)
@@ -88,6 +92,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.3")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
     kapt(libs.hilt.compiler)
+
 
 
 
